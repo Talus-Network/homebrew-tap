@@ -11,4 +11,4 @@ brew install nexus-cli
 
 ## Available packages
 
-- `nexus-cli`: Toolkit for scaffolding, validating, and debugging Smart Agents and tools in the Talus Network's Nexus Agentic Framework.
+- `nexus-cli`: Toolkit for building Smart Agents in Talus Network's Nexus Framework.
