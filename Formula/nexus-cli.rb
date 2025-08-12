@@ -1,7 +1,7 @@
 class NexusCli < Formula
   desc "CLI for building Talus Agents with Nexus, the Agentic Workflow Engine"
   homepage "https://github.com/Talus-Network/nexus-sdk"
-  url "https://github.com/Talus-Network/nexus-sdk/releases/download/v0.1.0/nexus-cli-0.1.0-x86_64-apple-darwin.tar.gz"
+  url "https://github.com/Talus-Network/nexus-sdk/releases/download/v0.2.0/nexus-cli-0.2.0-x86_64-apple-darwin.tar.gz"
   sha256 "313d2296040cfa27e91b7b424eac9a1f1faa846b615125349577c47d23261861"
   license "Apache-2.0"
 
