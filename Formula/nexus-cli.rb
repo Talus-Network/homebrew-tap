@@ -1,16 +1,17 @@
 class NexusCli < Formula
   desc "CLI for building Talus Agents with Nexus, the Agentic Workflow Engine"
   homepage "https://github.com/Talus-Network/nexus-sdk"
-  url "https://github.com/Talus-Network/nexus-sdk/releases/download/v0.3.0/nexus-cli-0.3.0-x86_64-apple-darwin.tar.gz"
-  sha256 "d8dd27b3560b16bcd9256f13e39a2be40817618ea97bf7585ae71224c80eefe3"
+  version "0.4.0"
+  url "https://github.com/Talus-Network/nexus-sdk/releases/download/v#{version}/nexus-cli-#{version}-x86_64-apple-darwin.tar.gz"
+  sha256 "9a7bcd24529af00044d4de8084d8329dbe34e6dc02bbdca3fc601b9c7db63048"
   license "Apache-2.0"
 
   if Hardware::CPU.arm?
     url "https://github.com/Talus-Network/nexus-sdk/releases/download/v#{version}/nexus-cli-#{version}-aarch64-apple-darwin.tar.gz"
-    sha256 "3cdb0ec479b073cc581eccff3ad50e72dfb8fb7958d5cf26b5f132b1a3a2de2a"
+    sha256 "933051f9e780e94fc3ab44a3ee6a8f1c0d8fdcf6202d13edebe2ed7ac0732e20"
   elsif OS.linux?
     url "https://github.com/Talus-Network/nexus-sdk/releases/download/v#{version}/nexus-cli-#{version}-x86_64-unknown-linux-musl.tar.gz"
-    sha256 "376972a46dab79e8439ac263753ac4ce20da6ed8ecd80ea3566be35ff19c9b88"
+    sha256 "d79007ee29cbae574440627997691f0f130fc221f0294f9f8ddb3eafbedd6180"
   end
 
   def install
